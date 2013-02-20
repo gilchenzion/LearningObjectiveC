@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Ruby Tuesday Bella Turkey Burger</string>
+		<key>calories</key>
+		<integer>1145</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Quizno&apos;s Classic Italian (large)</string>
+		<key>calories</key>
+		<integer>1528</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Chili&apos;s Awesome Blossom</string>
+		<key>calories</key>
+		<integer>2710</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>On The Border Stacked Border Nachos</string>
+		<key>calories</key>
+		<integer>2740</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>P.F. Chang&apos;s Pork Lo Mein</string>
+		<key>calories</key>
+		<integer>1820</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lonestar 20 oz T-bone</string>
+		<key>calories</key>
+		<integer>1540</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Carl&apos;s Jr. Double Six Dollar Burger</string>
+		<key>calories</key>
+		<integer>1520</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>On the Border Grande Taco Salad with Taco Beef</string>
+		<key>calories</key>
+		<integer>1450</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Macaroni Grill Double Macaroni &apos;n&apos; Cheese</string>
+		<key>calories</key>
+		<integer>1210</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Chipotle Mexican Grill Chicken Burrito</string>
+		<key>calories</key>
+		<integer>1179</integer>
+	</dict>
+</array>
+</plist>

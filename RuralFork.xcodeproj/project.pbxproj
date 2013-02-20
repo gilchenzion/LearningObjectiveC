@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BA640B314A65D8A00493DE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA640B214A65D8A00493DE4 /* UIKit.framework */; };
+		2BA640B514A65D8A00493DE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA640B414A65D8A00493DE4 /* Foundation.framework */; };
+		2BA640B714A65D8A00493DE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA640B614A65D8A00493DE4 /* CoreGraphics.framework */; };
+		2BA640BD14A65D8A00493DE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BA640BB14A65D8A00493DE4 /* InfoPlist.strings */; };
+		2BA640BF14A65D8A00493DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA640BE14A65D8A00493DE4 /* main.m */; };
+		2BA640C314A65D8A00493DE4 /* RuralForkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA640C214A65D8A00493DE4 /* RuralForkAppDelegate.m */; };
+		2BA640C614A65D8A00493DE4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA640C414A65D8A00493DE4 /* MainWindow.xib */; };
+		2BA640C914A65D8A00493DE4 /* RuralForkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA640C814A65D8A00493DE4 /* RuralForkViewController.m */; };
+		2BA640CC14A65D8A00493DE4 /* RuralForkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA640CA14A65D8A00493DE4 /* RuralForkViewController.xib */; };
+		2BA640D314A6622800493DE4 /* Food.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BA640D214A6622800493DE4 /* Food.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BA640AE14A65D8A00493DE4 /* RuralFork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuralFork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA640B214A65D8A00493DE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BA640B414A65D8A00493DE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BA640B614A65D8A00493DE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BA640BA14A65D8A00493DE4 /* RuralFork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RuralFork-Info.plist"; sourceTree = "<group>"; };
+		2BA640BC14A65D8A00493DE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BA640BE14A65D8A00493DE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA640C014A65D8A00493DE4 /* RuralFork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RuralFork-Prefix.pch"; sourceTree = "<group>"; };
+		2BA640C114A65D8A00493DE4 /* RuralForkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuralForkAppDelegate.h; sourceTree = "<group>"; };
+		2BA640C214A65D8A00493DE4 /* RuralForkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuralForkAppDelegate.m; sourceTree = "<group>"; };
+		2BA640C514A65D8A00493DE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2BA640C714A65D8A00493DE4 /* RuralForkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuralForkViewController.h; sourceTree = "<group>"; };
+		2BA640C814A65D8A00493DE4 /* RuralForkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuralForkViewController.m; sourceTree = "<group>"; };
+		2BA640CB14A65D8A00493DE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RuralForkViewController.xib; sourceTree = "<group>"; };
+		2BA640D214A6622800493DE4 /* Food.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Food.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA640AB14A65D8A00493DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA640B314A65D8A00493DE4 /* UIKit.framework in Frameworks */,
+				2BA640B514A65D8A00493DE4 /* Foundation.framework in Frameworks */,
+				2BA640B714A65D8A00493DE4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA640A314A65D8A00493DE4 = {
+			isa = PBXGroup;
+			children = (
+				2BA640B814A65D8A00493DE4 /* RuralFork */,
+				2BA640B114A65D8A00493DE4 /* Frameworks */,
+				2BA640AF14A65D8A00493DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA640AF14A65D8A00493DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA640AE14A65D8A00493DE4 /* RuralFork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA640B114A65D8A00493DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA640B214A65D8A00493DE4 /* UIKit.framework */,
+				2BA640B414A65D8A00493DE4 /* Foundation.framework */,
+				2BA640B614A65D8A00493DE4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BA640B814A65D8A00493DE4 /* RuralFork */ = {
+			isa = PBXGroup;
+			children = (
+				2BA640C114A65D8A00493DE4 /* RuralForkAppDelegate.h */,
+				2BA640C214A65D8A00493DE4 /* RuralForkAppDelegate.m */,
+				2BA640C414A65D8A00493DE4 /* MainWindow.xib */,
+				2BA640C714A65D8A00493DE4 /* RuralForkViewController.h */,
+				2BA640C814A65D8A00493DE4 /* RuralForkViewController.m */,
+				2BA640CA14A65D8A00493DE4 /* RuralForkViewController.xib */,
+				2BA640B914A65D8A00493DE4 /* Supporting Files */,
+			);
+			path = RuralFork;
+			sourceTree = "<group>";
+		};
+		2BA640B914A65D8A00493DE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA640BA14A65D8A00493DE4 /* RuralFork-Info.plist */,
+				2BA640BB14A65D8A00493DE4 /* InfoPlist.strings */,
+				2BA640BE14A65D8A00493DE4 /* main.m */,
+				2BA640C014A65D8A00493DE4 /* RuralFork-Prefix.pch */,
+				2BA640D214A6622800493DE4 /* Food.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA640AD14A65D8A00493DE4 /* RuralFork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA640CF14A65D8A00493DE4 /* Build configuration list for PBXNativeTarget "RuralFork" */;
+			buildPhases = (
+				2BA640AA14A65D8A00493DE4 /* Sources */,
+				2BA640AB14A65D8A00493DE4 /* Frameworks */,
+				2BA640AC14A65D8A00493DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuralFork;
+			productName = RuralFork;
+			productReference = 2BA640AE14A65D8A00493DE4 /* RuralFork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA640A514A65D8A00493DE4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2BA640A814A65D8A00493DE4 /* Build configuration list for PBXProject "RuralFork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BA640A314A65D8A00493DE4;
+			productRefGroup = 2BA640AF14A65D8A00493DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA640AD14A65D8A00493DE4 /* RuralFork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA640AC14A65D8A00493DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA640BD14A65D8A00493DE4 /* InfoPlist.strings in Resources */,
+				2BA640C614A65D8A00493DE4 /* MainWindow.xib in Resources */,
+				2BA640CC14A65D8A00493DE4 /* RuralForkViewController.xib in Resources */,
+				2BA640D314A6622800493DE4 /* Food.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA640AA14A65D8A00493DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA640BF14A65D8A00493DE4 /* main.m in Sources */,
+				2BA640C314A65D8A00493DE4 /* RuralForkAppDelegate.m in Sources */,
+				2BA640C914A65D8A00493DE4 /* RuralForkViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BA640BB14A65D8A00493DE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA640BC14A65D8A00493DE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BA640C414A65D8A00493DE4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA640C514A65D8A00493DE4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2BA640CA14A65D8A00493DE4 /* RuralForkViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA640CB14A65D8A00493DE4 /* en */,
+			);
+			name = RuralForkViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA640CD14A65D8A00493DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BA640CE14A65D8A00493DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA640D014A65D8A00493DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RuralFork/RuralFork-Prefix.pch";
+				INFOPLIST_FILE = "RuralFork/RuralFork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BA640D114A65D8A00493DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RuralFork/RuralFork-Prefix.pch";
+				INFOPLIST_FILE = "RuralFork/RuralFork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA640A814A65D8A00493DE4 /* Build configuration list for PBXProject "RuralFork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA640CD14A65D8A00493DE4 /* Debug */,
+				2BA640CE14A65D8A00493DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA640CF14A65D8A00493DE4 /* Build configuration list for PBXNativeTarget "RuralFork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA640D014A65D8A00493DE4 /* Debug */,
+				2BA640D114A65D8A00493DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BA640A514A65D8A00493DE4 /* Project object */;
+}

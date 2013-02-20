@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B019BAF14A566EA00BEFBCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B019BAE14A566EA00BEFBCA /* UIKit.framework */; };
+		2B019BB114A566EA00BEFBCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B019BB014A566EA00BEFBCA /* Foundation.framework */; };
+		2B019BB314A566EA00BEFBCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B019BB214A566EA00BEFBCA /* CoreGraphics.framework */; };
+		2B019BB914A566EA00BEFBCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B019BB714A566EA00BEFBCA /* InfoPlist.strings */; };
+		2B019BBB14A566EA00BEFBCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B019BBA14A566EA00BEFBCA /* main.m */; };
+		2B019BBF14A566EA00BEFBCA /* ICEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B019BBE14A566EA00BEFBCA /* ICEAppDelegate.m */; };
+		2B019BC214A566EA00BEFBCA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B019BC014A566EA00BEFBCA /* MainWindow.xib */; };
+		2B019BC514A566EA00BEFBCA /* ICEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B019BC414A566EA00BEFBCA /* ICEViewController.m */; };
+		2B019BC814A566EA00BEFBCA /* ICEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B019BC614A566EA00BEFBCA /* ICEViewController.xib */; };
+		2B019BCF14A56A3500BEFBCA /* abba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B019BCE14A56A3500BEFBCA /* abba.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B019BAA14A566EA00BEFBCA /* ICE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B019BAE14A566EA00BEFBCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B019BB014A566EA00BEFBCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B019BB214A566EA00BEFBCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B019BB614A566EA00BEFBCA /* ICE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ICE-Info.plist"; sourceTree = "<group>"; };
+		2B019BB814A566EA00BEFBCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B019BBA14A566EA00BEFBCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B019BBC14A566EA00BEFBCA /* ICE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICE-Prefix.pch"; sourceTree = "<group>"; };
+		2B019BBD14A566EA00BEFBCA /* ICEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEAppDelegate.h; sourceTree = "<group>"; };
+		2B019BBE14A566EA00BEFBCA /* ICEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEAppDelegate.m; sourceTree = "<group>"; };
+		2B019BC114A566EA00BEFBCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2B019BC314A566EA00BEFBCA /* ICEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEViewController.h; sourceTree = "<group>"; };
+		2B019BC414A566EA00BEFBCA /* ICEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEViewController.m; sourceTree = "<group>"; };
+		2B019BC714A566EA00BEFBCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ICEViewController.xib; sourceTree = "<group>"; };
+		2B019BCE14A56A3500BEFBCA /* abba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abba.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B019BA714A566EA00BEFBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B019BAF14A566EA00BEFBCA /* UIKit.framework in Frameworks */,
+				2B019BB114A566EA00BEFBCA /* Foundation.framework in Frameworks */,
+				2B019BB314A566EA00BEFBCA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B019B9F14A566EA00BEFBCA = {
+			isa = PBXGroup;
+			children = (
+				2B019BB414A566EA00BEFBCA /* ICE */,
+				2B019BAD14A566EA00BEFBCA /* Frameworks */,
+				2B019BAB14A566EA00BEFBCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B019BAB14A566EA00BEFBCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B019BAA14A566EA00BEFBCA /* ICE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B019BAD14A566EA00BEFBCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B019BAE14A566EA00BEFBCA /* UIKit.framework */,
+				2B019BB014A566EA00BEFBCA /* Foundation.framework */,
+				2B019BB214A566EA00BEFBCA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B019BB414A566EA00BEFBCA /* ICE */ = {
+			isa = PBXGroup;
+			children = (
+				2B019BBD14A566EA00BEFBCA /* ICEAppDelegate.h */,
+				2B019BBE14A566EA00BEFBCA /* ICEAppDelegate.m */,
+				2B019BC014A566EA00BEFBCA /* MainWindow.xib */,
+				2B019BC314A566EA00BEFBCA /* ICEViewController.h */,
+				2B019BC414A566EA00BEFBCA /* ICEViewController.m */,
+				2B019BC614A566EA00BEFBCA /* ICEViewController.xib */,
+				2B019BB514A566EA00BEFBCA /* Supporting Files */,
+			);
+			path = ICE;
+			sourceTree = "<group>";
+		};
+		2B019BB514A566EA00BEFBCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B019BCE14A56A3500BEFBCA /* abba.jpeg */,
+				2B019BB614A566EA00BEFBCA /* ICE-Info.plist */,
+				2B019BB714A566EA00BEFBCA /* InfoPlist.strings */,
+				2B019BBA14A566EA00BEFBCA /* main.m */,
+				2B019BBC14A566EA00BEFBCA /* ICE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B019BA914A566EA00BEFBCA /* ICE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B019BCB14A566EA00BEFBCA /* Build configuration list for PBXNativeTarget "ICE" */;
+			buildPhases = (
+				2B019BA614A566EA00BEFBCA /* Sources */,
+				2B019BA714A566EA00BEFBCA /* Frameworks */,
+				2B019BA814A566EA00BEFBCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICE;
+			productName = ICE;
+			productReference = 2B019BAA14A566EA00BEFBCA /* ICE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B019BA114A566EA00BEFBCA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2B019BA414A566EA00BEFBCA /* Build configuration list for PBXProject "ICE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B019B9F14A566EA00BEFBCA;
+			productRefGroup = 2B019BAB14A566EA00BEFBCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B019BA914A566EA00BEFBCA /* ICE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B019BA814A566EA00BEFBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B019BB914A566EA00BEFBCA /* InfoPlist.strings in Resources */,
+				2B019BC214A566EA00BEFBCA /* MainWindow.xib in Resources */,
+				2B019BC814A566EA00BEFBCA /* ICEViewController.xib in Resources */,
+				2B019BCF14A56A3500BEFBCA /* abba.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B019BA614A566EA00BEFBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B019BBB14A566EA00BEFBCA /* main.m in Sources */,
+				2B019BBF14A566EA00BEFBCA /* ICEAppDelegate.m in Sources */,
+				2B019BC514A566EA00BEFBCA /* ICEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B019BB714A566EA00BEFBCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B019BB814A566EA00BEFBCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B019BC014A566EA00BEFBCA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B019BC114A566EA00BEFBCA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2B019BC614A566EA00BEFBCA /* ICEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B019BC714A566EA00BEFBCA /* en */,
+			);
+			name = ICEViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B019BC914A566EA00BEFBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B019BCA14A566EA00BEFBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B019BCC14A566EA00BEFBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICE/ICE-Prefix.pch";
+				INFOPLIST_FILE = "ICE/ICE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B019BCD14A566EA00BEFBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICE/ICE-Prefix.pch";
+				INFOPLIST_FILE = "ICE/ICE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B019BA414A566EA00BEFBCA /* Build configuration list for PBXProject "ICE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B019BC914A566EA00BEFBCA /* Debug */,
+				2B019BCA14A566EA00BEFBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B019BCB14A566EA00BEFBCA /* Build configuration list for PBXNativeTarget "ICE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B019BCC14A566EA00BEFBCA /* Debug */,
+				2B019BCD14A566EA00BEFBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B019BA114A566EA00BEFBCA /* Project object */;
+}
